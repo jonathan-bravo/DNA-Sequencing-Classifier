@@ -9,5 +9,5 @@ dependencies:
   - pandas
   - matplotlib
   - IPython
-  - sklearn
+  - scikit-learn
   - biopython
