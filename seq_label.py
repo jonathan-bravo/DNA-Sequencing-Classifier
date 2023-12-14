@@ -119,6 +119,8 @@ def main():
 
     y_pred = classifier.predict(X_test)
 
+    print(y_pred)
+
     print("Confusion matrix\n")
     print(pd.crosstab(
         pd.Series(y_test, name='Actual'),
